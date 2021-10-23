@@ -1,0 +1,253 @@
+/*Adding comments to CSS and trying to improve it 
+A new CSS style is added with the tag: Avneet:  and ends with :Avneet*/
+
+
+/*This for universal styling of page*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Giving background color to body of the page*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Setting cladd header  for padding, font-type, bsckground color and added display*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    display: flex; /*Avneet: Adding flex display*/
+}
+
+/*Setting size and display for h1 in class header*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Setting color for seo class in h1 in class header  */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Setting style fot all div in class header*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Setting style for unsorted list in div of class header*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*Setting CSS like : Dispaly and margin for li elements in unsorted list in div of class header*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Avneet: Adding styling for section a and setting it flex and wrapping as per page dimensions*/
+ section{
+
+    display: flex;
+    /*flex: wrap*/;
+}
+/*:Avneet*/
+
+/*Avneet: adding csss for article*/
+article{
+
+    display: block;
+}
+/*:Avneet*/
+
+/*Setting color and text decorstion for links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Setting size fint size for paragraph*/
+p {
+    font-size: 16px;
+}
+
+
+/*Setting style for class hero with background image, positionand size with shorthand and setting sixe for hero class on page*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    /*background: url("../images/digital-marketing-meeting.jpg"), cover, center ;*/
+}
+
+/*Setting margin and float left forsearch engine optimization and social media image class*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Setting margin and float for online reputation management image class, bascially float left and float right are classes used to set posiiton of images required left or right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Setting width, display and margin of content*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*CSS styling for benefits class*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+
+
+/*Avneet: Adding CSS for aside bar*/
+aside{
+    display: block;
+}
+/*:Avneet*/
+
+/*CSS for side bar and its components*/
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*CSS for content and its components on page 
+I have divided each content in sections 
+CSS for classses used in content of page*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*CSS used for images used in content*/
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/*CSS used in footer*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h3 {
+    font-size: 20px;
+}
